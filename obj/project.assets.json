@@ -7280,11 +7280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WEELO PRUEBA TECNICA QA\\03\\Automation\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\Millon_And_Up_C_Sharp_Test\\NewDesignMillionAndUpTest.csproj",
       "projectName": "NewDesignMillionAndUpTest",
-      "projectPath": "C:\\WEELO PRUEBA TECNICA QA\\03\\Automation\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\Millon_And_Up_C_Sharp_Test\\NewDesignMillionAndUpTest.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\WEELO PRUEBA TECNICA QA\\03\\Automation\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\Millon_And_Up_C_Sharp_Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

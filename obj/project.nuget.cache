@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AGJnuB2zTZjz0vDpL42tTsIIB8KmCpGocxcHKnbVFW4PPrPzA9B7iWXl3w6KSWK3fJpj3r+eHIJ1UAJA4YiGTA==",
+  "dgSpecHash": "fRA1JJlRloeIDhSKGGiruxRgeHEgCmR68HkqHZDJv5RGoX+Fh5YOLHIzcKoSbQId82Y+mW3xgYDSUrmFURZiOw==",
   "success": true,
-  "projectFilePath": "C:\\WEELO PRUEBA TECNICA QA\\03\\Automation\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest\\NewDesignMillionAndUpTest.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Millon_And_Up_C_Sharp_Test\\NewDesignMillionAndUpTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",

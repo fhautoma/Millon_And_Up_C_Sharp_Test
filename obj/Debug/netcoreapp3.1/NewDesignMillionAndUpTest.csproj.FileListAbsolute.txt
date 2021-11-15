@@ -256,11 +256,11 @@ C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\bin\Debug\netcoreapp3.
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
-C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.csprojAssemblyReference.cache
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.AssemblyInfoInputs.cache
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.AssemblyInfo.cs
-C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.csproj.CopyComplete
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.dll
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.pdb
 C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Millon_And_Up_C_Sharp_Test\obj\Debug\netcoreapp3.1\NewDesignMillionAndUpTest.csprojAssemblyReference.cache

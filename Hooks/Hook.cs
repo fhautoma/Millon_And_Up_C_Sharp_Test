@@ -25,7 +25,7 @@ namespace NewDesignMillionAndUpTest.Hooks
             ChromeOptions option = new ChromeOptions();
             option.AddArguments("start-maximized");
             option.AddArguments("--incognito");
-            option.AddArguments("--headless");
+            //option.AddArguments("--headless");
             option.AddArguments("--window-size=1280x1024");
             option.AddArguments("--disable-gpu");
 

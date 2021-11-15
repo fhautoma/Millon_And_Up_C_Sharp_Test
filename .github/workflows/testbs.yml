@@ -1,20 +1,20 @@
 name: 'BrowserStack Test'
 on: [push, pull_request]
 jobs:
-    ubuntu-job:
+    windows-job:
     
-      name: 'BrowserStack Test on Ubuntu'
+      name: 'BrowserStack Test on Windows'
       runs-on: windows-latest
       steps:
 
         - name: 'BrowserStack Env Setup'
-          uses: browserstack/github-actions@v1.0.1/setup-env@trunk
+          uses: browserstack/github-actions/setup-env@trunk
           with:
             username:  ${{ secrets.BROWSERSTACK_USERNAME }}
             access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
             
         - name: 'BrowserStack Local Tunnel Setup'
-          uses: browserstack/github-actions@v1.0.1/setup-local@trunk
+          uses: browserstack/github-actions/setup-local@trunk
           with:
             local-testing: start
             local-identifier: random
@@ -23,6 +23,6 @@ jobs:
           run: dotnet test
           
         - name: 'Stop BrowserStackLocal'
-          uses: browserstack/github-actions@v1.0.1/setup-local@trunk
+          uses: browserstack/github-actions/setup-local@trunk
           with:
             local-testing: stop

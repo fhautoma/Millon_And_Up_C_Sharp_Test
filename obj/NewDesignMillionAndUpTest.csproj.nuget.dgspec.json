@@ -75,13 +75,9 @@
               "target": "Package",
               "version": "[106.13.0, )"
             },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[3.141.0, )"
             },
             "SpecFlow": {
               "target": "Package",

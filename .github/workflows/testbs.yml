@@ -20,7 +20,7 @@ jobs:
             local-identifier: random
 
         - name: 'Running test on BrowserStack'
-          run: dotnet test NewDesignMillionAndUpTest.csproj
+          run: dotnet test .\Millon_And_Up_C_Sharp_Test\NewDesignMillionAndUpTest.csproj
           
         - name: 'Stop BrowserStackLocal'
           uses: browserstack/github-actions/setup-local@master

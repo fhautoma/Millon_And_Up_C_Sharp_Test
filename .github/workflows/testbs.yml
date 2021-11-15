@@ -18,9 +18,15 @@ jobs:
           with:
             local-testing: start
             local-identifier: random
-
+            
+        - name: Install dependencies
+          run: dotnet restore
+      
+        - name: Build
+          run: dotnet build --configuration Release --no-restore
+ 
         - name: 'Running test on BrowserStack'
-          run: dotnet test .\Millon_And_Up_C_Sharp_Test\NewDesignMillionAndUpTest.csproj
+          run: dotnet test --no-restore --verbosity normal
           
         - name: 'Stop BrowserStackLocal'
           uses: browserstack/github-actions/setup-local@master

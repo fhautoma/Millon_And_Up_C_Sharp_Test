@@ -18,7 +18,7 @@ jobs:
           with:
             local-testing: start
             local-identifier: random
-		
+
         - name: 'Running test on BrowserStack'
           run: dotnet test
           

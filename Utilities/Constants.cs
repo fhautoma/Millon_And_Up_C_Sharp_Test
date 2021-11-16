@@ -6,7 +6,7 @@ namespace NewDesignMillionAndUpTest.Utilities
 {
     public class Constants
     {
-        private const int waitSeconds = 60;
+        private const int waitSeconds = 240;
         public int WaitSeconds { get { return waitSeconds; } }
 
         private const string mockarooEndPoint = "https://api.mockaroo.com/api/ac46d8a0?count=1&key=cbb86130";

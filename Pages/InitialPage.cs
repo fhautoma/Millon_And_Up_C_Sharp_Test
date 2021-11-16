@@ -29,8 +29,10 @@ namespace NewDesignMillionAndUpTest.Pages
             
         }
 
+        IList<IWebElement> modalInit => driver.FindElements(By.XPath("//*[@class='modal-close']"));
+        IList<IWebElement> childsModal => modalInit[0].FindElements(By.XPath(".//*"));
         IWebElement scheduleButton => driver.FindElement(By.Id("addressBtn"));
-        IWebElement scheduleDateContainer => driver.FindElement(By.XPath("//*[@class='input-icon mx-1']"));
+        IWebElement scheduleDateContainer => driver.FindElement(By.XPath("//*[@class='icon-arrow-down']"));
         IWebElement rightCalendarArrow => driver.FindElement(By.XPath("//*[@class='fc-icon fc-icon-chevron-right']"));
         IList<IWebElement> calendarDays => driver.FindElements(By.XPath("//tr/td/div/div/a"));
         IList<IWebElement> hours => driver.FindElements(By.XPath("//*[@class='initial-time']"));
@@ -49,7 +51,9 @@ namespace NewDesignMillionAndUpTest.Pages
         //This method opens the browser and ref to MillonAndUp initial page
         public void NavigateToWebSite(string url)
         {
+            
             driver.Navigate().GoToUrl(url);
+
         }
 
         //This method executes a script to verify if the page is loaded and return a true or false value
@@ -62,8 +66,12 @@ namespace NewDesignMillionAndUpTest.Pages
         //This method makes scroll until the end of the page
         public void ScrollDownPage()
         {
-            for(int i = 0; i < 2; i++)
+            for (int i = 0; i < 2; i++)
             {
+                if (modalInit[0].Displayed)
+                {
+                    childsModal[0].Click();
+                }
                 action.SendKeys(Keys.End)
                     .Build()
                     .Perform();
@@ -78,7 +86,7 @@ namespace NewDesignMillionAndUpTest.Pages
             scheduleButton.Click();           
         }
 
-        //This method waits until the 
+        //This method selects day and month
         public void SelectDateTime(int month, int day, string hour)
         {
             DateProcessor dateProcessor = new DateProcessor();
@@ -121,14 +129,14 @@ namespace NewDesignMillionAndUpTest.Pages
             }
         }
 
-        //This method
+        //This method clicks zoom call buton
         public void ClickZoomCallButton()
         {
             wait.Until(ExpectedConditions.ElementToBeClickable(zoomCallButton));
             zoomCallButton.Click();
         }
 
-        //This method
+        //This method fill email address field with mock data
         public static async Task FillEmailAddress()
         {
             InitialPage initialPage = new InitialPage();
@@ -142,6 +150,7 @@ namespace NewDesignMillionAndUpTest.Pages
             sendSchedulePresentationButton.Click();
         }
 
+        //This method fill name and phone fields with mock data
         public static async Task FillContactInformation()
         {
             InitialPage initialPage = new InitialPage();
@@ -154,6 +163,7 @@ namespace NewDesignMillionAndUpTest.Pages
                 mockData[0].Phone));
         }
 
+        //This method gets the scheduled presentation info and returns this
         public Dictionary<string, dynamic> ValidateScheduledPresentationData()
         {
             wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath(scheduleResponseDate)));

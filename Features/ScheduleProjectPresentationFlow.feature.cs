@@ -106,11 +106,11 @@ namespace NewDesignMillionAndUpTest.Features
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Schedule Presentation")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ScheduleProjectPresentationFlow")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("runChromeLocal")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("runBrowserStack")]
         public virtual void SchedulePresentation()
         {
             string[] tagsOfScenario = new string[] {
-                    "runChromeLocal"};
+                    "runBrowserStack"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Schedule Presentation", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 9
@@ -143,13 +143,13 @@ this.FeatureBackground();
  testRunner.And("I make click to schedule a project presentation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 12
- testRunner.And("I select month 2 day 2 hour \"1 PM\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
+ testRunner.And("I fill email address", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 13
  testRunner.And("I click zoom call button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 14
- testRunner.And("I fill email address", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
+ testRunner.And("I select month 2 day 2 hour \"1 PM\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
 #line 15
  testRunner.And("I click schedule presentation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");

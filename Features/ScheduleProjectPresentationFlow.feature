@@ -10,8 +10,8 @@ Scenario: Schedule Presentation
 	Given I go to finish page
 	* I make click to schedule a project presentation button
 	* I select month 2 day 2 hour "1 PM"
-	* I click zoom call button
 	* I fill email address
+	* I click zoom call button
 	* I click schedule presentation button
 	* I fill contact information
 	When I click schedule presentation button

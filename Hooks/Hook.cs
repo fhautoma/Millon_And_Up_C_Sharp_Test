@@ -32,8 +32,8 @@ namespace NewDesignMillionAndUpTest.Hooks
             options.AddAdditionalCapability("browser_version", "latest", true);
             options.AddAdditionalCapability("os", "Windows", true);
             options.AddAdditionalCapability("os_version", "10", true);
-            options.AddAdditionalCapability("browserstack.user", userName, true);
-            options.AddAdditionalCapability("browserstack.key", accessKey, true);
+            options.AddAdditionalCapability("browserstack.user", "felipehenao2", true);
+            options.AddAdditionalCapability("browserstack.key", "AEcZzcuK1nvH1QxSUnjR", true);
             options.AddAdditionalCapability("browserstack.timezone", "Bogota", true);
             options.AddArguments("start-maximized");
             options.AddArguments("--incognito");

@@ -2,8 +2,6 @@
 using TechTalk.SpecFlow;
 using NewDesignMillionAndUpTest.Pages;
 using System.Threading.Tasks;
-using System.Threading;
-using TechTalk.SpecFlow.Infrastructure;
 using System.Collections.Generic;
 using NewDesignMillionAndUpTest.Utilities;
 

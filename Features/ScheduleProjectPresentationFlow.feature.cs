@@ -106,11 +106,11 @@ namespace NewDesignMillionAndUpTest.Features
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Schedule Presentation")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ScheduleProjectPresentationFlow")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("runBrowserStack")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("runChromeLocal")]
         public virtual void SchedulePresentation()
         {
             string[] tagsOfScenario = new string[] {
-                    "runBrowserStack"};
+                    "runChromeLocal"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Schedule Presentation", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 9

@@ -4,8 +4,8 @@
 Background: 
 		Given Navigate to the website "https://newdesign.millionandup.com/"
 		And Validate if the page is loaded
-#@runBrowserStack
-@runChromeLocal
+@runBrowserStack
+#@runChromeLocal
 Scenario: Schedule Presentation
 	Given I go to finish page
 	* I make click to schedule a project presentation button

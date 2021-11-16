@@ -1,5 +1,5 @@
 ﻿Feature: ScheduleProjectPresentationFlow
-	Schedule A Project Presentation On A MillionAndUp Initial Page
+	Schedule A Project Presentation On A MillionAndUp Initial Page.
 
 Background: 
 		Given Navigate to the website "https://newdesign.millionandup.com/"
